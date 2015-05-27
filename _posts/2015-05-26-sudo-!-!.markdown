@@ -1,0 +1,29 @@
+---
+layout: default
+title:  "Sudo Bang Bang"
+date:   2015-05-20
+categories: 
+comments: true
+tags: bash osx
+---
+
+I don't remember when I found this out, but when I did, it changed my life.  
+Ever get one of these?
+
+
+{% highlight bash %}
+wrobson$ mkdir /var/test
+mkdir: /var/test: Permission denied
+{% endhighlight %}
+
+Permission denied? I'm pretty sure I have permission.
+Now follow that up with one of these.  
+
+{% highlight bash %}
+wrobson$ sudo !!
+sudo mkdir /var/test
+Password:
+{% endhighlight %}
+
+The !!(bang bang) is repeating the last command entered.  
+Now we have the sudo in the front and its asking for our password and completing without error. 

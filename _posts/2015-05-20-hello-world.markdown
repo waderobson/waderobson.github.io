@@ -1,9 +1,10 @@
 ---
 layout: default
 title:  "Hello World"
-date:   2015-05-20 23:09:24
+date:   2015-05-20
 categories: 
 comments: true
+tags: bash
 ---
 Hello world. I hope I don't fill the internet up with crappy blog posts.
 
