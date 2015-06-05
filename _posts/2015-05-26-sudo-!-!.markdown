@@ -2,7 +2,7 @@
 layout: default
 title:  "Sudo Bang Bang"
 date:   2015-05-26
-categories: 
+categories: bash
 comments: true
 tags: bash osx
 ---
