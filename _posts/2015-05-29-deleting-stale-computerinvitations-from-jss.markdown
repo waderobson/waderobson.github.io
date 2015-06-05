@@ -9,7 +9,7 @@ tags: jamf capser jss security
 
 I recently discovered a small, tiny, minuscule, security flaw with the JSS that I never knew about. Computer invitations allow the quickadd package, and the web enrol to get your computer joined to your JSS. Every time a quickadd package gets generated, a computer invitation with unlimited expiry is created as well. 
 
-We need to think about why these invitations may be problematic. What would happen if someone were to get a hold these invitations and enrol their own machine in your JSS? Could they get access to active directory? Could they get access to an expensive software catalog? Are you able to detect rogue machines on your network?
+We need to think about why these invitations may be problematic. What would happen if someone were to get a hold of these invitations and enrol their own machine in your JSS? Could they get access to active directory? Could they get access to an expensive software catalog? Are you able to detect rogue machines on your network?
 Maybe this isn't an issue, maybe your JSS is behind a firewall. 
 
 If your JSS is on the Internet these could present a huge security risk.
