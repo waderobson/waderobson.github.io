@@ -4,7 +4,7 @@ title:  "Hello World"
 date:   2015-05-20
 categories: 
 comments: true
-tags: bash
+tags: 
 ---
 Hello world. I hope I don't fill the internet up with crappy blog posts.
 

@@ -9,3 +9,4 @@ github_username:  waderobson
 
 # Build settings
 markdown: kramdown
+highlighter: pygments
